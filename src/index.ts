@@ -4,9 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send(
-    "Hello, this is the template for a REST API with TypeScript and Express!"
-  );
+  res.send("Hello, from new repo");
 });
 
 app.listen(3000, () => {
